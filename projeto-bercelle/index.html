@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Importando Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+    <!-- Importando ícones -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&family=Montserrat:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="estilos.css">
+
+
+    <title>Nature form Jamales</title>
+</head>
+
+<body data-bs-theme="ligth">
+
+    <header class=" p-4">
+        <nav class="navbar bg-cor-fundo  navbar-expand-lg container linha ">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold txt-cores" href="#">BERCELLE </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title " id="offcanvasNavbarLabel">BERCELLE</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link  txt-cores txt-alto" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link txt-cores  txt-alto" href="#">Sobre</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link txt-cores  txt-alto" href="#produtos">Cursos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link txt-cores  txt-alto" href="#">Comprar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link txt-cores  txt-alto" href="#contato">Contato</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <div class="form-check form-switch">
+                                        <!-- Modificando ID para modo-noturno -->
+                                        <input class="form-check-input" type="checkbox" role="switch" id="modo-noturno">
+                                        <label class="form-check-label" for="flexSwitchCheckDefault">Modo
+                                            Noturno</label>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--  INICIO SEÇÃO SOBRE INICIO -->
+
+    <main>
+        <section class="d-flex txt-cores container banner banner-1 align-items-center pb-5 txt-cores ">
+
+
+            <div class=" flex-column justify-content-center py-5 ">
+
+                <div class="row banner-fundo bg-body-secondary">
+                    <div class="   text-center">
+                        <h2 class="fw-bold pt-5"> BERCELLE </h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                            nisi
+                            ut
+                            aliquip ex ea commodo consequat.
+
+                        </p>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat
+                            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                        <button class="btn botao-padrao txt-alto fw-bold" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#saibamais" aria-controls="offcanvasExample">
+                            Saiba mais +
+                        </button>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+    <!--  FIM SEÇÃO SOBRE INICIO -->
+
+    <!-- INICIO SECÇÃO COURSES -->
+    <section id="produtos" class=" container  pt-5">
+
+        <div class=" row p-t5 mx-auto ">
+
+            <div class="col-lg-6   mx-auto">
+                <img src="./img/sabao.jpg" class="img-section-1 img-fluid  col-md-12 img-fluid" alt="...">
+            </div>
+
+            <div class="p-5 mx-auto col-lg-6">
+
+                <h2 class="fw-bold"> Sabão natural </h2>
+                <h3 class="fw-bold"> Curso online de como fazer sabão caseiro</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                    ut
+                    aliquip ex ea commodo consequat.
+                </p>
+
+
+                <button class="btn botao-padrao txt-alto fw-bold" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#curso1" aria-controls="offcanvasExample">
+                    Leia mais
+                </button>
+            </div>
+
+
+            <div class="  pt-5 mx-auto  ">
+
+                <div class="row">
+
+
+                    <div class=" col-lg-6 p-5 mx-auto">
+
+                        <h2 class="fw-bold"> Como fazer óleo de coco caseiro </h2>
+                        <h3 class="fw-bold"> Curso online de como fazer óleo caseiro </h3>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            ut
+                            labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi
+                            ut
+                            aliquip ex ea commodo consequat.
+
+                        </p>
+
+
+                        <button class="btn botao-padrao txt-alto fw-bold" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#curso2" aria-controls="offcanvasExample">
+                            Leia mais
+                        </button>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="./img/oil.jpg" class="img-section-1 pb-5 img-fluid" alt="...">
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FIM SECÇÃO COURSES -->
+
+    <!-- INICIO PRODUTOS  -->
+    <section class="container txt-cores">
+
+        <div class="d-flex flex-column text-center linha ">
+            <h2 class="produtos__titulo fw-bold"> PROMOÇÕES </h2>
+            <p class="produtos__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.</p>
+
+        </div>
+
+        <!-- INICIO LOJINHA -->
+        <div class="container row    pt-5">
+
+            <div class="card col-3 g-col-md-6 text-center border-0 mx-auto " style="width: 18rem;">
+                <img src="./img/sabao.jpg" class="card-img-top border-0 pt-4 img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Óleo de camomila</h5>
+                    <p class="card-text">$20.0</p>
+                    <a href="#" class="btn btn-primary botao-padrao">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card col-3  col-md-6  text-center border-0 mx-auto " style="width: 18rem;">
+                <img src="./img/sabao.jpg" class="card-img-top border-0 pt-4  img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold ">Sabão orgânico</h5>
+                    <p class="card-text">$5.0</p>
+                    <a href="#" class="btn btn-primary botao-padrao">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card  col-3  col-md-6  text-center border-0 mx-auto " style="width: 18rem;">
+                <img src="./img/sabao.jpg" class="card-img-top border-0 pt-4 img-fluid " alt="...">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold ">Glicerina caseira</h5>
+                    <p class="card-text">$7.0</p>
+                    <a href="#" class="btn btn-primary botao-padrao">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card  col-3  col-md-6  text-center border-0 mx-auto " style="width: 18rem;">
+                <img src="./img/sabao.jpg" class="card-img-top border-0 pt-4 img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Incensos naturais</h5>
+                    <p class="card-text">$2.0</p>
+                    <a href="#" class="btn btn-primary botao-padrao">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card col-3 g-col-md-6 text-center border-0 mx-auto " style="width: 18rem;">
+                <img src="./img/sabao.jpg" class="card-img-top border-0 pt-4 img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Produto 5</h5>
+                    <p class="card-text">$??.?</p>
+                    <a href="#" class="btn btn-primary botao-padrao">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card col-3  col-md-6  text-center border-0 mx-auto " style="width: 18rem;">
+                <img src="./img/sabao.jpg" class="card-img-top border-0 pt-4  img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold ">Produto 6</h5>
+                    <p class="card-text">$??.?</p>
+                    <a href="#" class="btn btn-primary botao-padrao">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card  col-3  col-md-6  text-center border-0 mx-auto " style="width: 18rem;">
+                <img src="./img/sabao.jpg" class="card-img-top border-0 pt-4 img-fluid " alt="...">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold ">Produto 7</h5>
+                    <p class="card-text">$??.?</p>
+                    <a href="#" class="btn btn-primary botao-padrao">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card  col-3  col-md-6  text-center border-0 mx-auto " style="width: 18rem;">
+                <img src="./img/sabao.jpg" class="card-img-top border-0 pt-4 img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Produto 8</h5>
+                    <p class="card-text">$??.?</p>
+                    <a href="#" class="btn btn-primary botao-padrao">Comprar</a>
+                </div>
+            </div>
+        </div>
+        <!-- FIM LOJINHA -->
+
+    </section>
+    <!-- FIM PRODUTOS -->
+
+
+
+    <!-- INICIO CONTATO -->
+    <section class="container banner txt-cores pt-5 flex-wrap row mx-auto " id="contato">
+
+        <div class="container form__fundo p-5 col-md-6 col-sm-12 mx-auto">
+            <h2 class="fw-bold pt-4"> Contato </h2>
+            <p> Please fill out the form below to send us an email. </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. </p>
+
+            <h3 class="fw-bold">E-mail</h3>
+            <p>hello@reallygreatsite.com</p>
+
+
+        </div>
+
+
+
+
+        <div class="container form__fundo border-0 p-5 col-md-6 col-sm-12   mx-auto">
+            <div class="form-floating mb-3 border-0  ">
+                <input type="email" class="form-control border-0  " id="floatingInput" placeholder="NOME">
+                <label for="floatingInput">NOME</label>
+            </div>
+
+            <div class="form-floating mb-3 border-0">
+                <input type="email" class="form-control  border-0 " id="floatingInput" placeholder="EMAIL">
+                <label for="floatingInput">EMAIL</label>
+            </div>
+
+            <div class="form-floating mb-3  border-0  ">
+                <input type="email" class="form-control" id="floatingInput" placeholder="ASSUNTO">
+                <label for="floatingInput">ASSUNTO</label>
+            </div>
+
+            <div class="mb-3  border-0  ">
+                <label for="exampleFormControlTextarea1" class="form-label">MENSGAGEM</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn fw-bold botao-padrao2 p-3  mt-3 py-3">Enviar</button>
+
+        </div>
+
+
+
+
+
+
+    </section>
+    <!-- FIM CONTATO  -->
+
+
+    <!-- OFFCANVA HEARD INI -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="saibamais" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">More about BERCELLE</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.
+
+                <img src="./img/logo1.png" class="img-fluid">
+            </div>
+            <div class="dropdown mt-3">
+
+
+            </div>
+        </div>
+    </div>
+    <!-- OFFCANVA HEARD FIM -->
+
+    <!-- OFFCANVA CURSO 1 INI -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="curso1" aria-labelledby="offcanvasExampleLabel">
+
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title fw-bold" id="offcanvasExampleLabel">MAIS SOBRE CURSO SABÃO </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+
+            <img src="./img/sabao.jpg" class="img-fluid p-2">
+            <div class="pt-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.
+
+
+            </div>
+            <div class="dropdown mt-3">
+
+
+            </div>
+        </div>
+    </div>
+    <!-- OFFCANVA CURSO 1 FIM -->
+
+    <!-- OFFCANVA CURSO 2 INI -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="curso2" aria-labelledby="offcanvasExampleLabel">
+
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title fw-bold" id="offcanvasExampleLabel">MAIS SOBRE CURSO ÓLEO </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+
+            <img src="./img/oil.jpg" class="img-fluid p-2">
+            <div class="pt-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.
+
+
+            </div>
+            <div class="dropdown mt-3">
+
+
+            </div>
+        </div>
+    </div>
+    <!-- OFFCANVA CURSO 2 FIM -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
