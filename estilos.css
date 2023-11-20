@@ -1,0 +1,166 @@
+
+body{
+    --cor-fundo:#F6F4F3;
+    
+}
+:root{
+    --cor-fundo:#F6F4F3;
+    --font-primary:'Montserrat', sans-serif;
+    --cor--fonte-1:#31241E;
+}
+
+input[type=checkbox]{
+    border: 2px solid var(--marrom-claro);
+    box-shadow: none;
+  
+  }
+
+input[type="checkbox"]:checked, 
+input[type="checkbox"]:focus{
+  background-color: var(--cor--fonte-1);
+  border-color: var(--cor-fundo);
+  box-shadow: none;
+  outline: none;
+
+}
+
+
+/*Estilo modo dark INI  */
+[data-bs-theme="dark"]{
+    color: white;
+    .nav-link, .card-body, .offcanvas, .accordion, .btn{
+      --bs-nav-link-color:white;
+      --bs-card-color:white;
+      --bs-offcanvas-color:white;
+      --bs-body-color:white;
+      --bs-body-color:white;
+    }
+    .botao-padrao{
+        background-color: #31241E;
+        border-radius: 6px;
+        border-color: #31241E;
+    }
+
+    .txt-cores{
+        color: var(--cor-fundo) ;
+    }
+  
+    .form__fundo{
+        background-color: #31241E;
+    }
+
+    .botao-padrao2{
+        background-color: #F6F4F3;
+        color: #31241E;
+    } 
+
+    
+/*Estilo modo dark FIM  */
+  }
+
+body{
+    font-family: var(--font-primary);
+    height: 3000px;
+
+}
+
+.linha{
+    border-bottom: 1px solid brown;
+}
+
+.linha-sup{
+    border-top: 1px solid brown;
+}
+
+
+.linha-esq{
+    border-left: 1px solid red;
+    border-left: 1px solid brown;
+}
+
+.banner{
+    width: 100%;
+    height:70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+.banner-1{
+    background-image: url(./img/banner-1.jpg);
+
+}
+
+.banner-fundo{
+    --bs-bg-opacity: .2;    
+
+
+}
+
+
+.txt-alto{
+    text-transform: uppercase;
+}
+
+.txt-cores{
+    color: var(--cor--fonte-1) ;
+}
+
+.cor-fundo{
+   background-color: var(--cor-fundo);
+}
+
+
+.img-section-1{
+
+    height: 250px;
+    width: 500px;
+}
+
+
+.botao-padrao{
+    background-color: #31241E;
+    border-radius: 6px;
+    border-color: #31241E;
+    color: #F6F4F3;
+}
+
+.botao-padrao:hover{
+    background-color: var(--cor-fundo);
+    border-color: #31241E;
+    color:  #31241E;
+    text-decoration: none;
+    
+
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.produtos__titulo{
+    padding: 2px;
+    font-size: 36px;
+}
+
+.produtos__texto{
+
+    padding: 15px;
+}
+
+.form__fundo{
+    background-color: #D1C8C1;
+}
+
+.botao-padrao2{
+    background-color: #31241E;
+    color: white;
+    
+} 
+
+.botao-padrao2:hover{
+    border:1px solid  #31241E;
+    /* color: #31241Estilo modo dark INI ; */
+    
+} 
